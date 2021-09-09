@@ -23,15 +23,15 @@ namespace qaMarsSpecflow.Steps
         public void GivenEditLanguageDetails()
         {
             // ScenarioContext.Current.Pending();
-            ExcelLibHelper.PopulateInCollection($@"{LoginSteps.path}Data\Data.xlsx", "LanguageDetails");
+         ExcelLibHelper.PopulateInCollection($@"{LoginSteps.path}Data\Data.xlsx", "LanguageDetails");
             LanguagePage.EditLanguage();
-
+        
         }
         
         [Given(@"delete language details")]
         public void GivenDeleteLanguageDetails()
         {
-            LanguagePage.DeleteLanguage();
+            //LanguagePage.DeleteLanguage();
         }
     }
 }

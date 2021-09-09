@@ -34,9 +34,7 @@ namespace qaMarsSpecflow.Pages
         }
         public static void EditLanguage()
         {
-            Thread.Sleep(4000);
-
-            EditLanguagesBtn.Click();
+            Thread.Sleep(6000);  EditLanguagesBtn.Click();
             LanguagesTextBox.Clear();
             LanguagesTextBox.SendKeys(ExcelLibHelper.ReadData(3, "Language"));
             LanguageslevelDropDown.Click();
@@ -46,7 +44,7 @@ namespace qaMarsSpecflow.Pages
         }
         public static void DeleteLanguage()
         {
-            Thread.Sleep(4000);
+            Thread.Sleep(6000);
 
             DeleteLanguagesBtn.Click();
         }
