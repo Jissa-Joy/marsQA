@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading;
 
 namespace qaMarsSpecflow.Pages
+
 {
     class LanguagePage
     {
@@ -21,8 +22,9 @@ namespace qaMarsSpecflow.Pages
         private static IWebElement UpdateLanguagesBtn => Driver.driver.FindElement(By.XPath("//input[@value='Update']"));
         private static IWebElement DeleteLanguagesBtn => Driver.driver.FindElement(By.XPath("//body[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[3]/form[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/span[2]/i[1]"));
 
-
-        public static void AddLanguage()
+  /*  //*[@id="account-profile-section"]/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/table/tbody/tr/td/div/div[2]/select
+        */
+    public static void AddLanguage()
         {
 
             Thread.Sleep(5000);
