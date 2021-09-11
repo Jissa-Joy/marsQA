@@ -31,6 +31,7 @@ namespace qaMarsSpecflow.Steps
         [Given(@"delete language details")]
         public void GivenDeleteLanguageDetails()
         {
+            Console.WriteLine("test");
             //LanguagePage.DeleteLanguage();
         }
     }

@@ -15,8 +15,7 @@ namespace qaMarsSpecflow.Pages
         private static IWebElement CertificateTextBox => Driver.driver.FindElement(By.XPath("//input[@placeholder='Certificate or Award']"));
         private static IWebElement CertificateFromTextBox => Driver.driver.FindElement(By.XPath("//input[@placeholder='Certified From (e.g. Adobe)']"));
         private static IWebElement YearDropDown => Driver.driver.FindElement(By.XPath("//select[@name='certificationYear']"));
-       
-        private static IWebElement AddCertificationsBtn => Driver.driver.FindElement(By.XPath("//input[@value='Add']"));
+       private static IWebElement AddCertificationsBtn => Driver.driver.FindElement(By.XPath("//input[@value='Add']"));
         private static IWebElement EditCertificationsBtn => Driver.driver.FindElement(By.XPath("//tbody/tr/td[4]/span[1]/i[1]"));
         private static IWebElement UpdateCertificationsBtn => Driver.driver.FindElement(By.XPath("//input[@value='Update']"));
         private static IWebElement DeleteCertificationsBtn => Driver.driver.FindElement(By.XPath("//tbody/tr/td[4]/span[2]/i[1]"));
