@@ -28,7 +28,7 @@ namespace qaMarsSpecflow.Pages
             Thread.Sleep(5000);
             ClickCertificationsTab.Click();
             ClickAddNewCertficationBtn.Click();
-            CertificateTextBox.SendKeys(ExcelLibHelper.ReadData(2, "Certificate "));
+            CertificateTextBox.SendKeys(ExcelLibHelper.ReadData(2, "Certificate"));
             CertificateFromTextBox.SendKeys(ExcelLibHelper.ReadData(2, "CertificateFrom"));
             YearDropDown.SendKeys(ExcelLibHelper.ReadData(2, "Year"));
             AddCertificationsBtn.Click();
@@ -40,7 +40,7 @@ namespace qaMarsSpecflow.Pages
             EditCertificationsBtn.Click();
             CertificateTextBox.Clear();
             CertificateFromTextBox.Clear();
-            CertificateTextBox.SendKeys(ExcelLibHelper.ReadData(3, "Certificate "));
+            CertificateTextBox.SendKeys(ExcelLibHelper.ReadData(3, "Certificate"));
             CertificateFromTextBox.SendKeys(ExcelLibHelper.ReadData(3, "CertificateFrom"));
             YearDropDown.SendKeys(ExcelLibHelper.ReadData(3, "Year"));
             UpdateCertificationsBtn.Click();
